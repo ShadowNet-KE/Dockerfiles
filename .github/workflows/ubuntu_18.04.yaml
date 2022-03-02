@@ -35,7 +35,7 @@ jobs:
   make:
     if: github.event.repository.fork == false
     name: Make
-    uses: HariSekhon/GitHub-Actions/.github/workflows/make.yaml@master
+    uses: buluma/GitHub-Actions/.github/workflows/make.yaml@master
     with:
       container: ubuntu:18.04
       debug: ${{ github.event.inputs.debug || false }}
