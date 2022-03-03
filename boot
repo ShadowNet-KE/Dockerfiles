@@ -25,7 +25,7 @@ set -eu
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(dirname "$0")"
 
-repo="https://github.com/HariSekhon/dockerfiles"
+repo="https://github.com/buluma/dockerfiles"
 
 directory="dockerfiles"
 

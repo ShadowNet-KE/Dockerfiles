@@ -22,7 +22,7 @@
 [![TeamCity](https://img.shields.io/badge/TeamCity-ready-blue?logo=teamcity)](https://github.com/HariSekhon/TeamCity-CI)
 
 [![AppVeyor](https://img.shields.io/appveyor/build/buluma/Dockerfiles/master?logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/buluma/Dockerfiles/branch/master)
-[![Drone](https://img.shields.io/drone/build/HariSekhon/Dockerfiles/master?logo=drone&label=Drone)](https://cloud.drone.io/HariSekhon/Dockerfiles)
+[![Drone](https://img.shields.io/drone/build/buluma/Dockerfiles/master?logo=drone&label=Drone)](https://cloud.drone.io/buluma/Dockerfiles)
 [![CircleCI](https://circleci.com/gh/buluma/Dockerfiles.svg?style=svg)](https://circleci.com/gh/buluma/Dockerfiles)
 [![Codeship Status for buluma/dockerfiles](https://app.codeship.com/projects/52122208-5f4b-42b4-a193-25cf36f03459/status?branch=master)](https://app.codeship.com/projects/448096)
 [![Shippable](https://img.shields.io/shippable/5e52c63645c70f0007ff514e/master?label=Shippable&logo=jfrog)](https://app.shippable.com/github/HariSekhon/Dockerfiles/dashboard/jobs)
