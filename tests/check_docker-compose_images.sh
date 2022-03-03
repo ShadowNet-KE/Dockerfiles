@@ -34,8 +34,8 @@ for directory in *; do
             image_name_alternate="${directory%-*}"
             image_tag_alternate="${directory##*-}"
             if ! grep -Eq \
-                 -e "^[[:space:]]*image:[[:space:]]*harisekhon/$directory(:\\$\\{VERSION:-latest\\}|:latest)?[[:space:]]*$" \
-                 -e "^[[:space:]]*image:[[:space:]]*harisekhon/${image_name_alternate}(:\\$\\{VERSION:-$image_tag_alternate\\}|:$image_tag_alternate)?[[:space:]]*$" "$compose_file"; then
+                 -e "^[[:space:]]*image:[[:space:]]*buluma/$directory(:\\$\\{VERSION:-latest\\}|:latest)?[[:space:]]*$" \
+                 -e "^[[:space:]]*image:[[:space:]]*buluma/${image_name_alternate}(:\\$\\{VERSION:-$image_tag_alternate\\}|:$image_tag_alternate)?[[:space:]]*$" "$compose_file"; then
                 echo "$directory docker-compose.yml image mismatch!"
                 exit 1
             fi

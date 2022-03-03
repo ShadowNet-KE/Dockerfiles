@@ -15,17 +15,17 @@
 
 # Alpine / Wget:
 #
-#   wget -O- https://raw.githubusercontent.com/HariSekhon/dockerfiles/master/setup/bootstrap.sh | sh
+#   wget -O- https://raw.githubusercontent.com/buluma/dockerfiles/master/setup/bootstrap.sh | sh
 #
 # Curl:
 #
-#   curl https://raw.githubusercontent.com/HariSekhon/dockerfiles/master/setup/bootstrap.sh | sh
+#   curl https://raw.githubusercontent.com/buluma/dockerfiles/master/setup/bootstrap.sh | sh
 
 set -eu
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(dirname "$0")"
 
-repo="https://github.com/HariSekhon/dockerfiles"
+repo="https://github.com/buluma/dockerfiles"
 
 directory="dockerfiles"
 

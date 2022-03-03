@@ -213,7 +213,7 @@ interactive:
 
 .PHONY: browse
 browse:
-	@source $(BASH_TOOLS)/.bash.d/network.sh; browser "https://github.com/harisekhon/dockerfiles"
+	@source $(BASH_TOOLS)/.bash.d/network.sh; browser "https://github.com/buluma/dockerfiles"
 
 .PHONY: github
 github: browse
@@ -221,7 +221,7 @@ github: browse
 
 .PHONY: github-url
 github-url:
-	@source $(BASH_TOOLS)/.bash.d/functions.sh; echo "https://github.com/harisekhon/dockerfiles" | tee /dev/stderr | tr -d '\n' | paste_clipboard
+	@source $(BASH_TOOLS)/.bash.d/functions.sh; echo "https://github.com/buluma/dockerfiles" | tee /dev/stderr | tr -d '\n' | paste_clipboard
 
 .PHONY: dockerhub
 dockerhub:

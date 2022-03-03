@@ -18,7 +18,7 @@ resources:
     icon: github-circle
     type: git
     source:
-      uri: https://github.com/harisekhon/dockerfiles
+      uri: https://github.com/buluma/dockerfiles
       branch: master
   #- name: daily
   #  type: time

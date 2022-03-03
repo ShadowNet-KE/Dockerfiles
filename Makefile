@@ -1,14 +1,6 @@
 #
-#  Author: Hari Sekhon
-#  Date: 2016-01-19 23:14:35 +0000 (Tue, 19 Jan 2016)
-#
 #  vim:ts=4:sts=4:sw=4:noet
 #
-#  https://github.com/harisekhon/Dockerfiles
-#
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback
-#
-#  https://www.linkedin.com/in/harisekhon
 #
 
 ifneq ("$(wildcard bash-tools/Makefile.in)", "")
@@ -19,7 +11,7 @@ endif
 # fails to bootstrap on Alpine
 #SHELL := /usr/bin/env bash
 
-REPO := HariSekhon/Dockerfiles
+REPO := buluma/Dockerfiles
 
 CODE_FILES := $(shell find . -type f -name '*.py' -o -type f -name '*.sh' -o -type f -name Dockerfile | grep -v -e bash-tools)
 
@@ -129,7 +121,7 @@ pull:
 
 .PHONY: dockerpull
 dockerpull:
-	for x in *; do [ -d $$x ] || continue; docker pull harisekhon/$$x || exit 1; done
+	for x in *; do [ -d $$x ] || continue; docker pull harisekhon/$$x || exit 1; done  # TODO: Change to local
 
 .PHONY: docker-push
 docker-push:

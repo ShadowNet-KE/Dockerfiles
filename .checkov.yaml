@@ -39,6 +39,6 @@ framework:
 no-guide: true
 output: cli
 quiet: true
-repo-id: HariSekhon/Dockerfiles  # what to report to Bridgecrew Cloud - without this gets annoying duplicate repos such as 'harisekhon_cli_repo/Dockerfiles'
+repo-id: buluma/Dockerfiles  # what to report to Bridgecrew Cloud - without this gets annoying duplicate repos such as 'harisekhon_cli_repo/Dockerfiles'
 skip-suppressions: true
 soft-fail: true
