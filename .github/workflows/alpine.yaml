@@ -25,4 +25,4 @@ jobs:
     uses: buluma/GitHub-Actions/.github/workflows/make.yaml@master
     with:
       container: alpine:latest
-      debug: ${{ github.event.inputs.debug || false }}
+      # debug: ${{ github.event.inputs.debug || false }}
