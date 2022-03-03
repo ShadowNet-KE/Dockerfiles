@@ -18,7 +18,7 @@ jobs:
     name: Docker Build
     uses: buluma/GitHub-Actions/.github/workflows/docker_build.yaml@master
     with:
-      repo: harisekhon/alpine-dev
+      repo: buluma/alpine-dev
       tags: latest
       context: alpine-dev
     secrets:
