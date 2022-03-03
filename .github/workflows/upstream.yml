@@ -1,9 +1,10 @@
+---
 name: Sync Upstream
 
 env:
   # Required, URL to upstream (fork base)
-  UPSTREAM_URL: "https://github.com/buluma/Dockerfiles_2022.git"
-  # Required, token to authenticate bot, could use ${{ secrets.GITHUB_TOKEN }} 
+  UPSTREAM_URL: "https://github.com/buluma/Dockerfiles.git"
+  # Required, token to authenticate bot, could use ${{ secrets.GITHUB_TOKEN }}
   # Over here, we use a PAT instead to authenticate workflow file changes.
   # WORKFLOW_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
   WORKFLOW_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -29,7 +30,7 @@ jobs:
     steps:
       - name: GitHub Sync to Upstream Repository
         uses: dabreadman/sync-upstream-repo@v1.0.0.b
-        with: 
+        with:
           upstream_repo: ${{ env.UPSTREAM_URL }}
           upstream_branch: ${{ env.UPSTREAM_BRANCH }}
           downstream_branch: ${{ env.DOWNSTREAM_BRANCH }}

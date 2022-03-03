@@ -1,16 +1,8 @@
 #!/usr/bin/env bash
 #  vim:ts=4:sts=4:sw=4:et
 #
-#  Author: Hari Sekhon
-#  Date: 2019-02-21 14:43:32 +0000 (Thu, 21 Feb 2019)
-#
-#  https://github.com/harisekhon/Dockerfiles
-#
-#  License: see accompanying Hari Sekhon LICENSE file
-#
-#  If you're using my code you're welcome to connect with me on LinkedIn and optionally send me feedback to help steer this or other code I publish
-#
-#  https://www.linkedin.com/in/harisekhon
+#  Author: Michael
+#  Date: 2022-03-03 16:00:32
 #
 
 set -euxo pipefail
