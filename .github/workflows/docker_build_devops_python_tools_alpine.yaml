@@ -19,7 +19,7 @@ jobs:
     name: Docker Build
     uses: buluma/GitHub-Actions/.github/workflows/docker_build.yaml@master
     with:
-      repo: harisekhon/pytools
+      repo: buluma/pytools
       tags: alpine
       context: devops-python-tools-alpine
     secrets:

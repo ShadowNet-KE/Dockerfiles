@@ -18,7 +18,7 @@ jobs:
     name: Docker Build
     uses: buluma/GitHub-Actions/.github/workflows/docker_build.yaml@master
     with:
-      repo: harisekhon/fedora-dev
+      repo: buluma/fedora-dev
       tags: latest
       context: fedora-dev
     secrets:

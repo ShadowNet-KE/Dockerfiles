@@ -18,7 +18,7 @@ jobs:
     name: Docker Build
     uses: buluma/GitHub-Actions/.github/workflows/docker_build.yaml@master
     with:
-      repo: harisekhon/debian-dev
+      repo: buluma/debian-dev
       tags: latest
       context: debian-dev
     secrets:

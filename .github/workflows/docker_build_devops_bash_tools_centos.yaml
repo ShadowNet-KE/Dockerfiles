@@ -19,7 +19,7 @@ jobs:
     name: Docker Build
     uses: buluma/GitHub-Actions/.github/workflows/docker_build.yaml@master
     with:
-      repo: harisekhon/bash-tools
+      repo: buluma/bash-tools
       tags: centos
       context: devops-bash-tools-centos
     secrets:
