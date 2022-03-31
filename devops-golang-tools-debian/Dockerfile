@@ -19,7 +19,7 @@ LABEL Description="Golang Tools"
 # used by build.sh to figure out which repo to bootstrap
 ENV PATH $PATH:/github/go-tools/bin
 
-ADD https://raw.githubusercontent.com/HariSekhon/DevOps-Bash-tools/master/setup/docker_bootstrap.sh /build.sh
+COPY https://raw.githubusercontent.com/HariSekhon/DevOps-Bash-tools/master/setup/docker_bootstrap.sh /build.sh
 
 RUN chmod +x /build.sh && NO_TESTS=1 /build.sh
 
